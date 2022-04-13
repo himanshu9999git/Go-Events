@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.nav-wrappp{
+    background-color: rgb(5, 43, 87);
+    border: 1px solid black;
+    color: rgb(180, 178, 178);
+    padding: 10px;
+    font-size: 18px;
+    /* height: 10vh; */
+}
+
+.navbar{
+    margin-bottom: 20px;
+}
+
+.nav-login{
+    color: white;
+    background-color: rgb(0,20,43);
+    text-decoration: none;
+    border-color: grey;
+}
+.nav-login:hover{
+    color: white;
+    background-color: rgb(2, 32, 66);
+    border-color: grey;
+}
+
+.nav-linkkk:hover{
+    
+    color: white;
+}
+
+.website-heading{
+    font-family: 'Dancing Script', cursive;
+    font-size: 90px;
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Events{
+    /* border: 1px solid rgb(124, 123, 123); */
+    padding: 80px;
+}
+
+.main-events{
+    border-left: 2px solid rgba(131, 130, 130, 0.301);
+    border-top: 2px solid rgba(131, 130, 130, 0.301);
+    height: 32vh;
+    margin: 2vh;
+    width: 70%; 
+    padding:20px;
+}
+
+.heading{
+    text-align: left;
+    margin-left: 12%;
+    font-size: 1em;
+    /* border: 1px solid red; */
+}
+
+.events-box{
+    
+    margin-left: 10%;
+}
+
+
+.main-events:hover{
+    box-shadow: 5px 5px 8px rgba(170, 170, 170, 0.514);
+}
+
+.heading{
+    font-size: 19px;
+    font-weight: 600;
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+}
+.reminder-wrapper{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.reminder{
+    text-align: center;
+    width:210px;
+    padding:10px 30px;
+    margin:10px;
+    border-style: none;
+    color:white;
+    background-color: rgb(5, 43, 87);
+    border-radius: 5px;
+}
+
+.reminder:hover{
+    background-color: #092583;
+    transition: 0.5s ease-in-out;
+}
+.Datentime{
+    display: flex;
+    justify-content: space-between;
+}
+*{
+    scroll-behavior: smooth;
+}
